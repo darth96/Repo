@@ -15,7 +15,7 @@ public class Main {
     float interestRate = 0.50f;
     char percent = '%';
         System.out.println(" Ally's savings account offers a rate of " + interestRate + percent );
-    int totalBalance = 500000;
+    int totalBalance = 500000000000l;
     char dollarSign = '$';
         System.out.println(" Ally's checking account has a total balance of " + dollarSign + totalBalance );
     boolean isSunRise = false;
