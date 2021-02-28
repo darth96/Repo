@@ -15,11 +15,10 @@ public class Main {
     float interestRate = 0.50f;
     char percent = '%';
         System.out.println(" Ally's savings account offers a rate of " + interestRate + percent );
-    int totalBalance = 500000;
+    long totalBalance = 500000000000L;
     char dollarSign = '$';
         System.out.println(" Ally's checking account has a total balance of " + dollarSign + totalBalance );
-    boolean isSunRise = false;
-        System.out.println(" Does the sun rise from the west? " + isSunRise );
+        System.out.println(" Does the sun rise from the west? " + false);
     char firstInitial = 'M';
     char secondInitial = 'M';
         System.out.println( firstInitial + " First initial " + "Second initial " + secondInitial );
