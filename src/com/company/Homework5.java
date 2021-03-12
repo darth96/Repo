@@ -8,7 +8,7 @@ public class Homework5 {
     public static void main(String[] args) {
         String[] fullNam = new String[2];
         fullNam[0] = "Malenkov";
-        fullNam[1] = "";
+        fullNam[1]= "";
         String fullNamlowCase = fullNam[0] + fullNam[1].toLowerCase();
         boolean isFullNamStartK = fullNamlowCase.startsWith("k");
         boolean isFullNamEndA = fullNamlowCase.endsWith("a");
@@ -39,9 +39,9 @@ public class Homework5 {
         threeWordSentence_2[0]  = "Lab";
         threeWordSentence_2[1] = "sessIONS";
         threeWordSentence_2[2] = "clAsses";
-        String oneAbrreviation = threeWordSentence_2[0].substring(0, 1);
-        String twoAbrreviation = threeWordSentence_2[1].substring(0, 1);
-        String threeAbrreviation =  threeWordSentence_2[2].substring(0, 1);
+        String oneAbrreviation = threeWordSentence_2[0].substring(0, 1).toUpperCase();
+        String twoAbrreviation = threeWordSentence_2[1].substring(0, 1).toUpperCase();
+        String threeAbrreviation =  threeWordSentence_2[2].substring(0, 1).toUpperCase();
         System.out.println(oneAbrreviation + twoAbrreviation + threeAbrreviation);
 
         String sentence_4 = "We all aer here to learn good stuff";
