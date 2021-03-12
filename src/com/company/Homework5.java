@@ -26,13 +26,13 @@ public class Homework5 {
             System.out.println("No last name entered");
         }
 
-        String[] s = new String[3];
-        s[0]= "hApPY";
-        s[1]= "nEW";
-        s[2]= "yeAr";
-        String oneLetterCap = s[0].substring(0, 1).toUpperCase() +s[0].substring(1).toLowerCase();
-        String twoLetterCap = s[1].substring(0, 1).toUpperCase() +s[1].substring(1).toLowerCase();
-        String threeLetterCap = s[2].substring(0, 1).toUpperCase() +s[2].substring(1).toLowerCase();
+        String[] threeWordSentence_1 = new String[3];
+        threeWordSentence_1[0]= "hApPY";
+        threeWordSentence_1[1]= "nEW";
+        threeWordSentence_1[2]= "yeAr";
+        String oneLetterCap = threeWordSentence_1[0].substring(0, 1).toUpperCase() +threeWordSentence_1[0].substring(1).toLowerCase();
+        String twoLetterCap = threeWordSentence_1[1].substring(0, 1).toUpperCase() +threeWordSentence_1[1].substring(1).toLowerCase();
+        String threeLetterCap = threeWordSentence_1[2].substring(0, 1).toUpperCase() +threeWordSentence_1[2].substring(1).toLowerCase();
         System.out.println(oneLetterCap + " " + twoLetterCap + " " +  threeLetterCap);
 
         String[] threeWordSentence_2 = new String [3];
@@ -44,7 +44,7 @@ public class Homework5 {
         String threeAbrreviation =  threeWordSentence_2[2].substring(0, 1).toUpperCase();
         System.out.println(oneAbrreviation + twoAbrreviation + threeAbrreviation);
 
-        String sentence_4 = "We all aer here to learn good stuff";
+        String sentence_4 = "We all are here to learn good stuff";
         int lengthOfSentence_4 = sentence_4.length();
         System.out.println(lengthOfSentence_4);
 
