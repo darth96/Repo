@@ -26,14 +26,14 @@ public class Homework6 {
 
            int divisible = 15;
            if (divisible / 3 !=0)
-               System.out.println("divisible by 3 ");
+               System.out.println("divisible by 3 " ) ;
            else if (divisible / 5 !=0)
-               System.out.println("divisible by 5");
-           else if (divisible / 3 !=0 && divisible / 5 !=0)
+               System.out.println("divisible by 5" );
+           if (divisible / 3 !=0 && divisible / 5 !=0)
                System.out.println("divisible by both");
            else System.out.println(divisible);
 
-           String carGear = "d";
+           String carGear = "D";
            String driveType = "";
            switch (carGear.toUpperCase()) {
                case "P":
@@ -44,12 +44,17 @@ public class Homework6 {
                        System.out.println("You are on snow mode ");
                    else if (driveType.toLowerCase() == "eco")
                        System.out.println("You are on eco mode");
-                   else if (driveType.toLowerCase() == "Sport")
-                       System.out.println("You are on sport mode");else System.out.println("Need valid drivetype" + driveType);
+                   else if (driveType.toLowerCase() == "sport")
+                       System.out.println("You are on sport mode");
+                   else System.out.println("Need valid drivetype" + driveType);
                    break;
                    case"N":
-                       System.out.println("Put car in car wash");case "R":
-                   System.out.println("Reverse the car");break;
+                       System.out.println("Put car in car wash");
+                         case "R":
+                   System.out.println("Reverse the car");
+                   break;
+               default:
+                   System.out.println("Invalid");
                    }
            }
 
