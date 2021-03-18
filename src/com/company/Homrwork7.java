@@ -8,18 +8,18 @@ public class Homrwork7 {
         System.out.println(sentence1);
         String[] arrSentence1 = sentence1.split(" ");
         for (String value : arrSentence1) {
-            System.out.println(value.substring(0, 1).toUpperCase() + value.substring(1).toLowerCase());
+            System.out.print(value.substring(0, 1).toUpperCase() + value.substring(1).toLowerCase()+ "\n");
         }
 
         String sentence2 = "Lab sessIONS clAsses";
         String [] arrSentence2 = sentence2.split(" ");
         for (String s : arrSentence2) {
-            System.out.println("\nThis is " + s.substring(0, 1).toUpperCase());
+            System.out.print("This is " + s.substring(0, 1).toUpperCase() + "\n");
         }
 
         String sentence3 ="happy holidays";
         for (int i=sentence3.length()-1 ; i>=0; i--){
-            System.out.println(sentence3.charAt(i)) ;
+            System.out.print( sentence3.charAt(i)) ;
 
         }
 
