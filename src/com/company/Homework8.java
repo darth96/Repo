@@ -9,7 +9,7 @@ public class Homework8 {
         String reverseWord= "";
         String[] wordArray =word.split("");
         for (int i=wordArray.length-1; i>=0; i--)
-            reverseWord= reverseWord + wordArray[i];
+            reverseWord += wordArray[i];
         System.out.println("reverseWord= " + reverseWord);
         boolean isPalindrome=true;
         if (reverseWord.equalsIgnoreCase(word))
@@ -20,8 +20,7 @@ public class Homework8 {
         //Add array numbers
         double [] doubleArray = {11.23, 43.3, 34, 65.76, 87};
         double total = 0;
-        for (int i=0; i<doubleArray.length; i++ )
-            total= total + doubleArray[i];
+        for (double add : doubleArray) total = total + add;
         System.out.println(total);
 
 
