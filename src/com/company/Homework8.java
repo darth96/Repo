@@ -1,7 +1,6 @@
 package com.company;
 
 
-import java.util.Arrays;
 
 public class Homework8 {
     public static void main(String[] args) {
@@ -20,8 +19,11 @@ public class Homework8 {
 
         //Add array numbers
         double [] doubleArray = {11.23, 43.3, 34, 65.76, 87};
-        double total = doubleArray[0]+ doubleArray[1]+ doubleArray[2]+ doubleArray[3]+doubleArray[4];
+        double total = 0;
+        for (int i=0; i<doubleArray.length; i++ )
+            total= total + doubleArray[i];
         System.out.println(total);
+
 
         //Prime number
         boolean isPrime= true;
