@@ -52,6 +52,7 @@ public class Homework9 {
         String[] myreverseArray =myReverse.split("");
         for (int i=myReverse.length()-1; i>=0; i--)
             reverseNumber += myreverseArray[i];
+          System.out.println(reverseNumber);
 
 
         return reverseNumber;
