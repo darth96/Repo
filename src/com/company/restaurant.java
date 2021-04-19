@@ -4,7 +4,9 @@ public class restaurant {
     private final int maxGuest= 0;
     int currentGuest=maxGuest;
     int totalGuest=0;
-    restaurant(String newName, int maxGuest){
+    restaurant(String newName, int max){
+        max=maxGuest;
+
     }
     //method to tell if number seats available
     public boolean seatsAvailable(int newSeats){
