@@ -5,34 +5,28 @@ public class restaurant {
     int currentGuest=maxGuest;
     int totalGuest=0;
     restaurant(String newName, int maxGuest){
-        String name = newName;
-        int max = maxGuest;
     }
     //method to tell if number seats available
     public boolean seatsAvailable(int newSeats){
         boolean seats;
         int seatsLeft= maxGuest -currentGuest;
-        if (newSeats<=seatsLeft)
-            seats= true;
-        else seats=false;
+        seats= newSeats <= seatsLeft;
 
         return seats;
     }
     // method that seats party
     public void seatsParty(int newParty){
-         int party = newParty;
-         if (party<=maxGuest-currentGuest){
+        if (newParty <=maxGuest-currentGuest){
              System.out.println("Enjoy your stay!");
-             totalGuest= totalGuest+ party;
-             currentGuest= currentGuest - party;
+             totalGuest= totalGuest+ newParty;
+             currentGuest= currentGuest - newParty;
          }
          else System.out.println("This number of seats not available");
     }
     //method to remove party
     public void removeParty (int newRemove){
-        int remove = newRemove;
-        if (remove<=currentGuest){
-        currentGuest=currentGuest-remove;
+        if (newRemove <=currentGuest){
+        currentGuest=currentGuest- newRemove;
             System.out.println("See you next time");
         } else System.out.println("Wrong input");
     }
